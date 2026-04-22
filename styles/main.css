@@ -1865,9 +1865,14 @@ code {
 }
 
 .footer-logo-mark {
-  font-size: 24px;
-  color: var(--accent);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
   line-height: 1;
+}
+
+.footer-logo-mark svg {
+  display: block;
 }
 
 .footer-brand-text {

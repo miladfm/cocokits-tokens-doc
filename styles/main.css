@@ -157,12 +157,15 @@ body {
 }
 
 .logo-mark {
-  font-size: 22px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
   line-height: 1;
+}
+
+.logo-mark svg {
+  display: block;
 }
 
 .logo-text {
